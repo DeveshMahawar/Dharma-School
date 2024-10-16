@@ -1,0 +1,647 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 5;
+    background-color: #3b4f63a3;
+}
+
+.nav_1 {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.nav_1 i {
+    color: white;
+    font-size: 22px;
+}
+.nav_1 span{
+    color: white;
+}
+
+
+
+.nav_1 span:hover {
+    color: #f16f23;
+    cursor: pointer;
+}
+
+.nav_3 {
+    padding-top: 20px;
+    margin-right: 40px;
+}
+.nav_3 span{
+    color: white;
+}
+.nav_3 span:hover{
+    color: #f16f23;
+    cursor: pointer;
+}
+
+.c_item_1 {
+    background-image: url(https://wallpaperaccess.com/full/2199116.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0;
+}
+
+.c_item_1 p {
+    margin: 0;
+}
+
+.c_item_2 {
+    background-image: url(https://www.wallpaperflare.com/static/39/515/810/photography-nature-monks-meditation-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0;
+}
+
+.c_item_3 {
+    background-image: url(https://wallpapercave.com/wp/wp4010543.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0;
+}
+
+.c_item_1 p,
+.c_item_2 p,
+.c_item_3 p {
+    color: white;
+    margin: 0;
+    padding-top: 266px;
+    PADDING-LEFT: 10%;
+    font-size: 70px;
+}
+
+.item button {
+    margin-left: 10%;
+    width: 20;
+    width: 335px;
+    height: 71px;
+    background: #ffac4b;
+    border: 0;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    transition: background-color 0.5s;
+}
+
+.item button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+.owl {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.side_nav {
+    position: fixed;
+    z-index: 11;
+    top: 20pc;
+    right: 10px;
+    font-size: 25px;
+    color: white;
+
+}
+
+.side_nav i {
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    background-color: #282828;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.side_nav i:hover {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.paragraf_1 {
+    font-size: 28px;
+    padding: 0px 20%;
+    font-family: "Reforma", sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.paragraf_2 {
+    text-align: center;
+    font-size: 12px;
+    margin: 26px;
+    font-family: "Reforma", sans-serif;
+    color: #767676;
+}
+
+.paragraf_3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffac4b;
+    font-family: "Reforma", sans-serif;
+}
+
+.btn_2 {
+    margin-left: 40%;
+    border: 0;
+    background: #f16f23;
+    width: 260px;
+    height: 62px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 700;
+    transition: background-color 0.5s;
+}
+
+.btn_2:hover {
+    background-color: #282828;
+
+}
+
+.child_box_2 img {
+    width: 100%;
+    height: 330px;
+}
+
+
+.child_box_2 {
+    width: 342px;
+    padding: 12px;
+}
+
+.main_box_2 {
+    display: flex;
+    justify-content: center;
+
+    column-gap: 25px;
+    background-color: #f2f1ef;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.paragraf_4_1 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+    margin-top: 16px;
+}
+
+.paragraf_5_1 {
+    font-size: 12px;
+    text-align: start;
+    color: #767676;
+}
+
+.child_box_2 p a {
+    text-decoration: none;
+    color: #282828;
+}
+
+.child_box_2 button {
+    border: 0;
+    width: 166px;
+    height: 51px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: #282828;
+    transition: background-color 0.5s;
+}
+
+.child_box_2 button:hover {
+    background-color: #f16f23;
+}
+
+.paragraf_6 {
+    font-size: 0;
+    padding-top: 28px;
+    transition: width 0.5s, height 1s, padding-top 1s, font-size 1s;
+
+
+}
+
+.view_btn:hover .paragraf_6,
+.view_btn_2:hover .paragraf_6,
+.view_btn_3:hover .paragraf_6 {
+    width: 90px;
+    height: 88px;
+    border-radius: 98px;
+    background: #f16f23;
+    padding-top: 28px;
+    font-weight: 800;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.view_btn,
+.view_btn_2,
+.view_btn_3 {
+    position: absolute;
+    z-index: 5;
+    width: 319px;
+    height: 330px;
+    text-align: center;
+    padding: 0px;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.mycon_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 134px;
+}
+
+.box3_child_1 {
+    padding: 22px;
+    padding-right: 55px;
+}
+
+.box3_child_1 ul {
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+    color: #767676;
+}
+
+.box3_child_1 ul li span {
+    font-weight: 700;
+    margin-right: 73px;
+    font-size: 17px;
+    color: #282828;
+}
+
+.box3_child_1 button {
+    margin-top: 35px;
+    width: 187px;
+    font-weight: 700;
+    height: 59px;
+    color: white;
+    background-color: #f16f23;
+    border: 0;
+    transition: background-color 0.5s;
+}
+
+.box3_child_1 button:hover {
+    background-color: #282828;
+}
+
+.main_box_4 {
+    display: flex;
+    margin-top: 100px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.box4_child_1,
+.box4_child_2 {
+    position: relative;
+    width: 100%;
+}
+
+.box4_child_1 .child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 50px;
+
+}
+
+.box4_child_2 .child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 50px;
+}
+
+.box4_child_1 .child .paragraf_b4_1 {
+    margin-bottom: 153px;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+}
+
+.box4_child_1 .child .paragraf_b4_2 {
+    font-size: 33px;
+    font-weight: 700;
+    color: white;
+}
+
+.box4_child_1 .child .paragraf_b4_3 {
+    font-style: italic;
+    color: white;
+}
+
+.box4_child_2 .child .paragraf_b4_1 {
+    margin-bottom: 153px;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+}
+
+.box4_child_2 .child .paragraf_b4_2 {
+    font-size: 33px;
+    font-weight: 700;
+    color: white;
+}
+
+.box4_child_2 .child .paragraf_b4_3 {
+    font-style: italic;
+    color: white;
+}
+
+.paragraf_b4_2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.paragraf_b4_2 a:hover {
+    transition: color 0.2s;
+    color: #f16f23;
+}
+
+/* .box4_child_1:hover img {
+    -webkit-transition: -webkit-transform .3s ease;
+    -ms-transition: -ms-transform .3s ease;
+    transition: -webkit-transform .3s ease;
+    -o-transition: transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease,-webkit-transform .3s ease;
+} */
+
+.main_box_5 {
+    background-color: #282828;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.paragraf_b5_1 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #f2f1ef;
+}
+
+.paragraf_b5_2 {
+    text-align: center;
+    margin-top: 34px;
+    padding: 0 110px;
+    color: #767676;
+}
+
+.mycon_2 {
+    padding: 0 160px;
+}
+
+.tab-pane {
+    color: white;
+}
+
+.mb-3 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    column-gap: 79px;
+}
+
+.tab-content>.active {
+    text-align: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #f16f23;
+}
+
+.nav-pills .nav-link {
+    background: #3b3b3bb8;
+    width: 120px;
+    height: 62px;
+
+}
+
+.nav-pills {
+    border-radius: 37px;
+}
+
+.my_btn_4.active {
+    background-color: #f16f23;
+}
+
+.tab-content>.active {
+    margin-top: 59px;
+    margin-bottom: 119px;
+}
+
+.my_span {
+    background: #3b3b3bb8;
+    padding: 27px;
+    border-radius: 18px;
+    font-size: 58px;
+}
+
+.donate_btn {
+    font-size: 19px;
+    border: 0px;
+    padding: 13px 41px;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: color 0.3s, background-color 0.3s;
+
+}
+
+.perent_donate {
+    text-align: center;
+}
+
+.donate_btn:hover {
+    color: white;
+    background-color: #f16f23;
+}
+
+.paragraf1_box6 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 85px;
+    font-weight: 400;
+}
+
+.perent_box_6 {
+    display: flex;
+    justify-content: center;
+
+    column-gap: 25px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.p_box6 {
+    text-align: start;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.s_box6 {
+    font-weight: 400;
+}
+
+.two_child_box_2 button {
+
+    border: 0;
+    width: 105px;
+    height: 43px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: #282828;
+    transition: background-color 0.5s;
+
+}
+
+.paragraf_4_1:hover a {
+    color: #f16f23;
+}
+
+.modal_input_1 {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.modal_paragraf_1 {
+    width: 100%;
+    text-align: start;
+}
+
+.modal_paragraf_1 input {
+    width: 100%;
+    height: 48px;
+}
+
+.modal_paragraf_2 {
+    width: 100%;
+    text-align: start;
+}
+
+.modal_paragraf_2 input {
+    width: 100%;
+    height: 48px;
+}
+
+.modal_paragraf_3 {
+    text-align: start;
+
+}
+
+.modal_paragraf_3 input {
+    width: 100%;
+    height: 48px;
+}
+
+.modal_paragraf_4 {
+    text-align: start;
+}
+
+.modal_paragraf_4 span {
+    box-sizing: border-box;
+    background: #b0aeae;
+    padding: 13px 32px;
+}
+
+.modal_paragraf_4 input {
+    height: 48px;
+    width: 102px;
+}
+
+.modal_paragraf_1::before,
+.modal_paragraf_2::before,
+.modal_paragraf_3::before {
+    content: "* ";
+    color: red;
+}
+
+.main_box_7 {
+    padding: 100px 0;
+    background: #f2f1ef;
+}
+
+.paragraf1_box7 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.paragraf2_box7 {
+    text-align: center;
+    padding: 0 419px;
+    color: #767676;
+}
+
+.paragraf3_box7 {
+    text-align: center;
+    margin-top: 41px;
+}
+
+.btn1_box7 {
+    padding: 21px 67px;
+    border: 0;
+    background: #f16f23;
+    font-weight: 600;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn1_box7:hover {
+    background-color: #282828;
+    color: #f16f23;
+}
+
+.btn2_box7 {
+    border: 0;
+    margin-left: 60px;
+    font-weight: 700;
+    color: #282828;
+}
+
+.btn2_box7:hover {
+    color: #f16f23;
+}
